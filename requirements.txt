@@ -1,0 +1,12 @@
+# requirements.txt
+Flask
+pandas
+numpy
+gunicorn # Used by GCF for serving apps
+openpyxl # For robust Excel reading in Pandas
+scipy # Dependency for statsmodels
+statsmodels
+gensim
+spacy
+nltk
+vaderSentiment # If needed for stop words, etc.
