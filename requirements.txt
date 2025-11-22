@@ -2,11 +2,12 @@
 Flask
 pandas
 numpy
-gunicorn # Used by GCF for serving apps
-openpyxl # For robust Excel reading in Pandas
-scipy # Dependency for statsmodels
+openpyxl
+xlrd               # <--- ADD THIS LINE
+scipy
 statsmodels
 gensim
 spacy
 nltk
-vaderSentiment # If needed for stop words, etc.
+vaderSentiment
+gunicorn
